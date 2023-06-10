@@ -60,7 +60,7 @@ width: 300px;
   display: flex;
   justify-content: center;
 cursor:grab;
-border-radius: 60px;
+border-radius: 30px;
 }
 h3{
     cursor: grab;
