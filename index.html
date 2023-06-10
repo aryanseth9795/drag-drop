@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="a.png" type="image/x-icon" />
+    <script src="logic.js" defer></script>
+    <title>Drag and Drop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"><h1>Drag and Drop</h1></div>
+      <div class="main-body">
+        <div class="box">
+          <div class="box1" ondrop="dragDrop(event)"
+          ondragover="allowDrop(event)" id="hel" >
+            <div class="imgbox" >
+              <img src="rain.jpg" alt="image" srcset="" class="img" draggable="true"
+              id="drag2"
+                 draggable="true"
+                 ondragstart="dragpoint(event)"
+             >
+            </div>
+          </div>
+          <div class="box2 box21 "  id="h"ondrop="droppoint(event)"
+          ondragover="allowDropOption(event)"  >
+           
+          </div>
+        </div>
+        <div class="box">
+            <div class="box1"  ondrop="dragDrop(event)"
+            ondragover="allowDrop(event)">
+                <div class="textbox">
+                 <h3 id="drag1"
+                 draggable="true"
+                 ondragstart="dragpoint(event)">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate odit porro praesentium, consequatur placeat nulla molestias adipisci sit, ducimus mollitia impedit. Facilis libero excepturi corporis quos molestiae ipsam dicta labore?</h3>
+                </div>
+              </div>
+              <div class="box2"ondrop="droppoint(event)"
+              ondragover="allowDropOption(event)"></div>
+            </div>
+            <div class="button">
+                <button class="btn"><a href="https:aryanseth9795.github.io/drag-drop">Reset the screen</a></button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
